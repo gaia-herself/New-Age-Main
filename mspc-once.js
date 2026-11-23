@@ -38,11 +38,12 @@ const scripts = [
 
   { name: 'Outfit Buyer', fn: runOutfitBuyer, alwaysRun: true },
   { name: 'Outfit Follower', fn: runOutfitFollower, alwaysRun: true },
-  //{ name: 'Burn Energy-Before', fn: runBurnEnergy, alwaysRun: true },
-  //{ name: 'Battle Pass Chests', fn: runBattlePassChests, alwaysRun: true },
-  //{ name: 'Burn Energy-After', fn: runBurnEnergy, alwaysRun: true },
-  //{ name: 'New Account', fn: runNewAccount, alwaysRun: true },
-  //{ name: 'Account Info', fn: runAccountInfo, alwaysRun: true },
+  { name: 'Burn Energy-Before', fn: runBurnEnergy, alwaysRun: true },
+  { name: 'Battle Pass Chests', fn: runBattlePassChests, alwaysRun: true },
+  { name: 'Burn Energy-After', fn: runBurnEnergy, alwaysRun: true },
+  { name: 'New Account', fn: runNewAccount, alwaysRun: true },
+  { name: 'Furniture Script', fn: runFurnitureScript, alwaysRun: true },
+  { name: 'Account Info', fn: runAccountInfo, alwaysRun: true },
 
 
   
