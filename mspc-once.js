@@ -263,8 +263,6 @@ async function runAllScripts(page) {
   // The logic has not been changed.
 
   for (const script of scripts) {
-    
-    if (process.env.ONLY_SCRIPT && script.name !== process.env.ONLY_SCRIPT) continue;
 
     const shouldRun =
       script.alwaysRun ||
