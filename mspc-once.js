@@ -33,6 +33,7 @@ const runNewAccount = require('./new-account.js');
 const runAccountInfo = require('./account-info.js');
 const runOutfitFollower = require('./outfit-follower.js'); //reverting back
 const runOutfitBuyer = require('./outfit-buyer.js');
+const runTeleportLive = require('./tele-live.js');
 
 const scripts = [
 
