@@ -46,6 +46,10 @@ const scripts = [
   { name: 'Furniture Script', fn: runFurnitureScript, alwaysRun: true },
   { name: 'Teleport Activation', fn: runTeleport, alwaysRun: true },
   { name: 'Teleport Live', fn: runTeleportLive, alwaysRun: true },
+  { name: 'Boyfriend Kiss', fn: runBoyfriendKiss, alwaysRun: true },
+  { name: 'Guild Attack', fn: runGuildAttack, alwaysRun: true },
+  { name: 'Guild Show', fn: runGuildShow, alwaysRun: true },
+  { name: 'Daily Tasks', fn: runDailyTasks, alwaysRun: true },
   { name: 'Account Info', fn: runAccountInfo, alwaysRun: true },
 
 
