@@ -22,9 +22,9 @@ const runAccountInfo = require('./account-info.js');
 module.exports = [
 
   { name: 'Outfit Follower', fn: runOutfitFollower, alwaysRun: true },
-  { name: 'Burn Energy-Before', fn: runBurnEnergy, alwaysRun: true },
+  /*{ name: 'Burn Energy-Before', fn: runBurnEnergy, alwaysRun: true },
   { name: 'Battle Pass Chests', fn: runBattlePassChests, alwaysRun: true },
-  { name: 'Burn Energy-After', fn: runBurnEnergy, alwaysRun: true },
+  { name: 'Burn Energy-After', fn: runBurnEnergy, alwaysRun: true },*/
   { name: 'Account Info', fn: runAccountInfo, alwaysRun: true },
 
 ];
